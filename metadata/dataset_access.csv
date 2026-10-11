@@ -1,0 +1,8 @@
+dataset,version,variables,time_support,native_resolution,access_url,identifier,rights
+GOSIF,2019 product framework; local 2001–2024,SIF and derived phenology,8 days,0.05 degrees,https://globalecology.unh.edu/data/GOSIF.html,10.3390/rs11050517,Provider terms
+PML,V2.2c,GPP,Native half-monthly; local monthly totals,0.1 degrees,https://doi.org/10.11888/Terre.tpdc.303314,10.11888/Terre.tpdc.303314,CC BY 4.0
+GLEAM,4.3a,E (ET) and Et (T),Native daily; local monthly totals,0.1 degrees,https://www.gleam.eu/,10.1038/s41597-025-04610-y,Provider registration and terms
+ERA5-Land,Monthly averaged data from 1950 to present,Climate covariates,Monthly,0.1 degrees,https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land-monthly-means,10.24381/cds.68d2bb30,Copernicus licence
+MODIS MCD12C1,Collection 6.1,Majority_Land_Cover_Type_1,Annual,0.05 degrees,https://doi.org/10.5067/MODIS/MCD12C1.061,10.5067/MODIS/MCD12C1.061,NASA Earthdata terms
+MODIS MCD12Q2,Collection 6.1,Greenup_1 and Dormancy_1,Annual,500 m native,https://doi.org/10.5067/MODIS/MCD12Q2.061,10.5067/MODIS/MCD12Q2.061,NASA Earthdata terms
+FLUXNET,ONEFlux v1.3 r1/r2 archives,GPP and latent heat flux,Daily and monthly,Tower footprint,https://data.icos-cp.eu/portal/,Station PIDs in tower_dataset_citations.csv,CC BY 4.0 with attribution

@@ -1,0 +1,18 @@
+family_id,source_table,members,finite_p,max_q_recalculation_error,scope_warning
+Primary_60,candidate_effects.csv,60,60,4.996003610813204e-16,Within this source table; duplicate names across tables do not imply one combined family
+Sensitivity_480,candidate_effects.csv,480,480,5.481726184086709e-16,Within this source table; duplicate names across tables do not imply one combined family
+Conditional_slopes_54,conditional_slopes.csv,54,54,9.063930161978816e-17,Within this source table; duplicate names across tables do not imply one combined family
+Conditional_perturbations_108,conditional_perturbations.csv,108,108,1.214306433183765e-16,Within this source table; duplicate names across tables do not imply one combined family
+UNREGISTERED_stratified_effects,stratified_effects.csv,720,720,5.795060611935021e-16,Within this source table; duplicate names across tables do not imply one combined family
+Original_108,configuration_sensitivity.csv,108,108,1.214306433183765e-16,Within this source table; duplicate names across tables do not imply one combined family
+Postfit_sensitivity_864,configuration_sensitivity.csv,864,864,2.220446049250313e-16,Within this source table; duplicate names across tables do not imply one combined family
+Depth,new_thermal_analyses.csv,54,54,4.2500725161431774e-16,Within this source table; duplicate names across tables do not imply one combined family
+Geographic,new_thermal_analyses.csv,162,162,9.593020822151745e-16,Within this source table; duplicate names across tables do not imply one combined family
+Joint_vegetation_moisture,new_thermal_analyses.csv,1584,1584,1.3264129378187661e-15,Within this source table; duplicate names across tables do not imply one combined family
+Nonlinear,new_thermal_analyses.csv,108,108,3.9118014383277005e-16,Within this source table; duplicate names across tables do not imply one combined family
+Control_ablations,control_ablations.csv,90,90,3.634245682171411e-16,Within this source table; duplicate names across tables do not imply one combined family
+Local_associations,local_thermal_associations.csv,1980,1980,3.087265686152474e-16,Within this source table; duplicate names across tables do not imply one combined family
+Thermal_curves,nonlinear_thermal_curves.csv,306,288,2.5205532105943007e-15,Within this source table; duplicate names across tables do not imply one combined family
+Thermal_moderation_slopes,nonlinear_thermal_curves.csv,162,162,1.43982048506075e-15,Within this source table; duplicate names across tables do not imply one combined family
+R2_DepthContrast_54,R2_direct_contrasts.csv,54,54,2.749536709423239e-16,"New exploratory family, defined before R2 computation; historical families unchanged"
+R2_EarlyLate_6,R2_direct_contrasts.csv,6,6,1.9992688060632702e-16,"New exploratory family, defined before R2 computation; historical families unchanged"

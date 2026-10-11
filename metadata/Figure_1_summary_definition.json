@@ -1,0 +1,16 @@
+{
+  "spatial_summary": "Weighted mean of the existing valid-year cell means; weights are cos(latitude).",
+  "cell_mean": "Within-cell mean over eligible years, separately for each phenological phase.",
+  "units": "degrees Celsius",
+  "statistic_type": "Descriptive, not a regression estimate or significance test.",
+  "latitude_profile_identity_tolerance": {
+    "atol": 1e-12,
+    "rtol": 1e-12
+  },
+  "retained_footprint_identity": true,
+  "source_hashes": {
+    "thermal_context.npz": "5044d2194a0fc22cc82e3ea585c1c07a0b81d5efa9319090d7ada004756bfa02",
+    "cell_metadata.npz": "d7d87486f4b3fd1674739628a9fd48e8b9d97ce181dc360c5c668cab574dd517",
+    "background_latitude_profile.csv": "9e717dca418a3b096a0e9a1afcb09f5394d7354dcd717d3b35dea51756251c10"
+  }
+}

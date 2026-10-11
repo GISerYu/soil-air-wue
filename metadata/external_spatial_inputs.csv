@@ -1,0 +1,3 @@
+filename,bytes,sha256,purpose,distribution
+GIS_retained_classes.npz,8003856,baa2a010c0921a54ee9584aa39c741d29cc642626d4e7d9b0e70d42083443676,Figure S1 vegetation and moisture-background maps,Separate optional spatial supplement
+spatial_retention.npz,10605909,7b7c4790982f7fe9bf062b12b366b47b63fed877167c7a6eff5bd5cd091e3c17,Figure S2 retained-years map,Separate optional spatial supplement

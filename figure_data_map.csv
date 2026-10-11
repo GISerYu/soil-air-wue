@@ -1,0 +1,44 @@
+figure,source,package_path,reproduction_scope
+Figure_1,background_latitude_profile.csv,data/source_tables/background_latitude_profile.csv,Source tables; complete figure reconstruction may require additional spatial or paired-observation inputs
+Figure_1,local_thermal_associations.csv,data/source_tables/local_thermal_associations.csv,Source tables; complete figure reconstruction may require additional spatial or paired-observation inputs
+Figure_1,new_thermal_analyses.csv,data/source_tables/new_thermal_analyses.csv,Source tables; complete figure reconstruction may require additional spatial or paired-observation inputs
+Figure_1,archived thermal_context.npz and WGS84 rasters,External spatial or paired-observation input; see Supporting Information,Source tables; complete figure reconstruction may require additional spatial or paired-observation inputs
+Figure_2,carried_candidate_effects.csv,data/source_tables/candidate_effects.csv,Source tables; complete figure reconstruction may require additional spatial or paired-observation inputs
+Figure_2,R2_direct_contrasts.csv,data/source_tables/direct_contrasts.csv,Source tables; complete figure reconstruction may require additional spatial or paired-observation inputs
+Figure_3,allocation_results.csv,data/reference/allocation_results.csv,Source tables; complete figure reconstruction may require additional spatial or paired-observation inputs
+Figure_3,allocation_change_decomposition.csv,data/source_tables/allocation_change_decomposition.csv,Source tables; complete figure reconstruction may require additional spatial or paired-observation inputs
+Figure_3,G1_month_support_distribution.csv,data/source_tables/month_support_distribution.csv,Source tables; complete figure reconstruction may require additional spatial or paired-observation inputs
+Figure_3,example_selection.json and real-site GOSIF/monthly tables,External spatial or paired-observation input; see Supporting Information,Source tables; complete figure reconstruction may require additional spatial or paired-observation inputs
+Figure_4,new_thermal_analyses.csv,data/source_tables/new_thermal_analyses.csv,Source tables; complete figure reconstruction may require additional spatial or paired-observation inputs
+Figure_4,R2_direct_contrasts.csv,data/source_tables/direct_contrasts.csv,Source tables; complete figure reconstruction may require additional spatial or paired-observation inputs
+Figure_5,new_thermal_analyses.csv,data/source_tables/new_thermal_analyses.csv,Included tables and code/plot_figures.py
+Figure_5,model_support.csv,data/source_tables/model_support.csv,Included tables and code/plot_figures.py
+Figure_5,G1_heatmap_support.csv,data/source_tables/heatmap_support.csv,Included tables and code/plot_figures.py
+Figure_S1,GIS_retained_classes.npz,external:GIS_retained_classes.npz,Included tables and plot code; requires separate GIS_retained_classes.npz via --gis-classes
+Figure_S1,GIS_stratification_support.csv,data/source_tables/GIS_stratification_support.csv,Included tables and plot code; requires separate GIS_retained_classes.npz via --gis-classes
+Figure_S1,GIS_unclassified_support.csv,data/source_tables/GIS_unclassified_support.csv,Included tables and plot code; requires separate GIS_retained_classes.npz via --gis-classes
+Figure_S2,G1_screening_counts.csv,data/source_tables/screening_counts.csv,Source tables; complete figure reconstruction may require additional spatial or paired-observation inputs
+Figure_S2,G1_spatial_retention.npz,external:spatial_retention.npz,Summary tables included; map array supplied separately
+Figure_S2,sample_flow_exact_counts.csv,data/source_tables/sample_flow_exact_counts.csv,Source tables; complete figure reconstruction may require additional spatial or paired-observation inputs
+Figure_S3,phenology_sample_metrics.csv,data/source_tables/phenology_sample_metrics.csv,Source tables; complete figure reconstruction may require additional spatial or paired-observation inputs
+Figure_S4,phenology_sample_metrics.csv,data/source_tables/phenology_sample_metrics.csv,Source tables; complete figure reconstruction may require additional spatial or paired-observation inputs
+Figure_S4,phenology_full_domain_metrics.csv,data/source_tables/phenology_full_domain_metrics.csv,Source tables; complete figure reconstruction may require additional spatial or paired-observation inputs
+Figure_S4,archived: phenology_scatter_sample.csv.gz,External spatial or paired-observation input; see Supporting Information,Source tables; complete figure reconstruction may require additional spatial or paired-observation inputs
+Figure_S5,tower_metrics.csv,data/source_tables/tower_metrics.csv,Aggregate metrics included; paired monthly observations supplied separately
+Figure_S5,monthly_plot_pairs_INTERNAL.csv,External spatial or paired-observation input; see Supporting Information,Aggregate metrics included; paired monthly observations supplied separately
+Figure_S6,carried_candidate_effects.csv,data/source_tables/candidate_effects.csv,Source tables; complete figure reconstruction may require additional spatial or paired-observation inputs
+Figure_S6,control_ablations.csv,data/source_tables/control_ablations.csv,Source tables; complete figure reconstruction may require additional spatial or paired-observation inputs
+Figure_S7,carried_candidate_effects.csv,data/source_tables/candidate_effects.csv,Source tables; complete figure reconstruction may require additional spatial or paired-observation inputs
+Figure_S7,control_ablations.csv,data/source_tables/control_ablations.csv,Source tables; complete figure reconstruction may require additional spatial or paired-observation inputs
+Figure_S8,leave_block_out.csv,data/source_tables/leave_block_out.csv,Source tables; complete figure reconstruction may require additional spatial or paired-observation inputs
+Figure_S8,carried_candidate_effects.csv,data/source_tables/candidate_effects.csv,Source tables; complete figure reconstruction may require additional spatial or paired-observation inputs
+Figure_S9,nonlinear_thermal_curves.csv,data/source_tables/nonlinear_thermal_curves.csv,Source tables; complete figure reconstruction may require additional spatial or paired-observation inputs
+Figure_S10,nonlinear_thermal_curves.csv,data/source_tables/nonlinear_thermal_curves.csv,Source tables; complete figure reconstruction may require additional spatial or paired-observation inputs
+Figure_S11,background_latitude_profile.csv,data/source_tables/background_latitude_profile.csv,Source tables; complete figure reconstruction may require additional spatial or paired-observation inputs
+Figure_S11,local_thermal_associations.csv,data/source_tables/local_thermal_associations.csv,Source tables; complete figure reconstruction may require additional spatial or paired-observation inputs
+Figure_S11,new_thermal_analyses.csv,data/source_tables/new_thermal_analyses.csv,Source tables; complete figure reconstruction may require additional spatial or paired-observation inputs
+Figure_S11,archived thermal_context.npz and WGS84 rasters,External spatial or paired-observation input; see Supporting Information,Source tables; complete figure reconstruction may require additional spatial or paired-observation inputs
+Figure_S12,warming_contrasts.csv,data/source_tables/warming_contrasts.csv,Source tables; complete figure reconstruction may require additional spatial or paired-observation inputs
+Figure_S13,G1_interaction_phase_contrasts.csv,data/source_tables/interaction_phase_contrasts.csv,Source tables; complete figure reconstruction may require additional spatial or paired-observation inputs
+Figure_1,Figure_1_thermal_summary.csv,data/source_tables/Figure_1_thermal_summary.csv,Source tables; complete figure reconstruction may require additional spatial or paired-observation inputs
+Figure_1,Figure_1_latitude_profile.csv,data/source_tables/Figure_1_latitude_profile.csv,Source tables; complete figure reconstruction may require additional spatial or paired-observation inputs

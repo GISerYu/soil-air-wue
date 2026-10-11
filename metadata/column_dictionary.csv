@@ -1,0 +1,508 @@
+file,field,dtype,definition
+data/complete_results/allocation_result_registry.csv,result_id,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/complete_results/allocation_result_registry.csv,model_id,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/complete_results/allocation_result_registry.csv,contrast,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/complete_results/allocation_result_registry.csv,endpoint,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/complete_results/allocation_result_registry.csv,beta,float64,Log-response coefficient or contrast
+data/complete_results/allocation_result_registry.csv,se,float64,Spatial-cluster standard error
+data/complete_results/allocation_result_registry.csv,ci_low,float64,Lower ordinary 95% interval endpoint
+data/complete_results/allocation_result_registry.csv,ci_high,float64,Upper ordinary 95% interval endpoint
+data/complete_results/allocation_result_registry.csv,p,float64,Two-sided unadjusted P value
+data/complete_results/allocation_result_registry.csv,df,int64,Degrees of freedom
+data/complete_results/allocation_result_registry.csv,n_clusters,int64,Number of occupied spatial clusters
+data/complete_results/allocation_result_registry.csv,n_cells,int64,Number of distinct retained cells
+data/complete_results/allocation_result_registry.csv,n_cell_years,int64,Number of retained cell-years
+data/complete_results/allocation_result_registry.csv,family_id,str,Multiplicity correction family
+data/complete_results/allocation_result_registry.csv,q,float64,Benjamini-Hochberg adjusted P value
+data/complete_results/allocation_result_registry.csv,code_sha256,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/complete_results/allocation_result_registry.csv,ci_type,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/complete_results/allocation_result_registry.csv,units,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/complete_results/allocation_result_registry.csv,support_definition,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/complete_results/allocation_result_registry.csv,input_hash,str,SHA-256 of sufficient-statistic inputs when available; empty denotes not supplied
+data/complete_results/historical_families.csv,family_id,str,Multiplicity correction family
+data/complete_results/historical_families.csv,source_table,str,Original source table basename
+data/complete_results/historical_families.csv,members,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/complete_results/historical_families.csv,finite_p,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/complete_results/historical_families.csv,max_q_recalculation_error,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/complete_results/historical_families.csv,scope_warning,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/complete_results/historical_family_members.csv.gz,setting,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/complete_results/historical_family_members.csv.gz,phase,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/complete_results/historical_family_members.csv.gz,topic,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/complete_results/historical_family_members.csv.gz,outcome,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/complete_results/historical_family_members.csv.gz,contrast,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/complete_results/historical_family_members.csv.gz,beta,float64,Log-response coefficient or contrast
+data/complete_results/historical_family_members.csv.gz,se,float64,Spatial-cluster standard error
+data/complete_results/historical_family_members.csv.gz,lo,float64,Lower ordinary 95% interval endpoint
+data/complete_results/historical_family_members.csv.gz,hi,float64,Upper ordinary 95% interval endpoint
+data/complete_results/historical_family_members.csv.gz,p,float64,Two-sided unadjusted P value
+data/complete_results/historical_family_members.csv.gz,blocks,float64,Number of occupied spatial clusters
+data/complete_results/historical_family_members.csv.gz,cells,float64,Number of distinct retained cells
+data/complete_results/historical_family_members.csv.gz,cell_years,float64,Number of retained cell-years
+data/complete_results/historical_family_members.csv.gz,family,str,Multiplicity correction family
+data/complete_results/historical_family_members.csv.gz,q_BH,float64,Benjamini-Hochberg adjusted P value
+data/complete_results/historical_family_members.csv.gz,source_table,str,Original source table basename
+data/complete_results/historical_family_members.csv.gz,source_sha256,str,SHA-256 of original source table
+data/complete_results/historical_family_members.csv.gz,source_row_1based,float64,Row in original source table
+data/complete_results/historical_family_members.csv.gz,model_id,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/complete_results/historical_family_members.csv.gz,result_id,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/complete_results/historical_family_members.csv.gz,level,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/complete_results/historical_family_members.csv.gz,scenario,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/complete_results/historical_family_members.csv.gz,field,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/complete_results/historical_family_members.csv.gz,value,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/complete_results/historical_family_members.csv.gz,analysis,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/complete_results/historical_family_members.csv.gz,term,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/complete_results/historical_family_members.csv.gz,df,float64,Degrees of freedom
+data/complete_results/historical_family_members.csv.gz,interpretation,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/complete_results/historical_results.csv.gz,result_id,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/complete_results/historical_results.csv.gz,model_id,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/complete_results/historical_results.csv.gz,input_hash,str,SHA-256 of sufficient-statistic inputs when available; empty denotes not supplied
+data/complete_results/historical_results.csv.gz,source_table_sha256,str,SHA-256 of original source table
+data/complete_results/historical_results.csv.gz,code_sha256,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/complete_results/historical_results.csv.gz,endpoint,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/complete_results/historical_results.csv.gz,phase,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/complete_results/historical_results.csv.gz,group,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/complete_results/historical_results.csv.gz,beta,float64,Log-response coefficient or contrast
+data/complete_results/historical_results.csv.gz,se,float64,Spatial-cluster standard error
+data/complete_results/historical_results.csv.gz,ci_low,float64,Lower ordinary 95% interval endpoint
+data/complete_results/historical_results.csv.gz,ci_high,float64,Upper ordinary 95% interval endpoint
+data/complete_results/historical_results.csv.gz,p,float64,Two-sided unadjusted P value
+data/complete_results/historical_results.csv.gz,q,float64,Benjamini-Hochberg adjusted P value
+data/complete_results/historical_results.csv.gz,family_id,str,Multiplicity correction family
+data/complete_results/historical_results.csv.gz,n_cells,float64,Number of distinct retained cells
+data/complete_results/historical_results.csv.gz,n_cell_years,float64,Number of retained cell-years
+data/complete_results/historical_results.csv.gz,n_clusters,float64,Number of occupied spatial clusters
+data/complete_results/historical_results.csv.gz,units,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/complete_results/historical_results.csv.gz,ci_type,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/complete_results/historical_results.csv.gz,support_definition,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/complete_results/historical_results.csv.gz,source_table,str,Original source table basename
+data/complete_results/historical_results.csv.gz,source_row_1based,int64,Row in original source table
+data/exploratory_tower/phase_anomalies.csv,phase,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/phase_anomalies.csv,endpoint,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/phase_anomalies.csv,scale,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/phase_anomalies.csv,n_sites,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/phase_anomalies.csv,n_site_years,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/phase_anomalies.csv,r,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/phase_anomalies.csv,r_low,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/phase_anomalies.csv,r_high,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_diagnostics_metrics.csv,phase,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_diagnostics_metrics.csv,endpoint,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_diagnostics_metrics.csv,scale,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_diagnostics_metrics.csv,n_sites,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_diagnostics_metrics.csv,n_site_years,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_diagnostics_metrics.csv,seed,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_diagnostics_metrics.csv,bootstrap_replicates,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_diagnostics_metrics.csv,r,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_diagnostics_metrics.csv,r_low,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_diagnostics_metrics.csv,r_high,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_diagnostics_metrics.csv,rho,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_diagnostics_metrics.csv,rho_low,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_diagnostics_metrics.csv,rho_high,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_diagnostics_metrics.csv,sd_tower,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_diagnostics_metrics.csv,sd_tower_low,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_diagnostics_metrics.csv,sd_tower_high,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_diagnostics_metrics.csv,sd_product,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_diagnostics_metrics.csv,sd_product_low,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_diagnostics_metrics.csv,sd_product_high,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_diagnostics_metrics.csv,sd_ratio,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_diagnostics_metrics.csv,sd_ratio_low,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_diagnostics_metrics.csv,sd_ratio_high,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_diagnostics_metrics.csv,slope,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_diagnostics_metrics.csv,slope_low,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_diagnostics_metrics.csv,slope_high,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_diagnostics_metrics.csv,rmse,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_diagnostics_metrics.csv,rmse_low,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_diagnostics_metrics.csv,rmse_high,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_diagnostics_metrics.csv,bias,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_diagnostics_metrics.csv,bias_low,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_diagnostics_metrics.csv,bias_high,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_diagnostics_metrics.csv,rho_site_balanced,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_diagnostics_metrics.csv,rho_site_balanced_low,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_diagnostics_metrics.csv,rho_site_balanced_high,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_leave_one_site_summary.csv,phase,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_leave_one_site_summary.csv,endpoint,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_leave_one_site_summary.csv,scale,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_leave_one_site_summary.csv,min_r,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_leave_one_site_summary.csv,max_r,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_leave_one_site_summary.csv,max_abs_delta_r,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_phase_distributions.csv,phase,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_phase_distributions.csv,variable,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_phase_distributions.csv,n,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_phase_distributions.csv,minimum,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_phase_distributions.csv,p01,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_phase_distributions.csv,p05,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_phase_distributions.csv,median,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_phase_distributions.csv,p95,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_phase_distributions.csv,p99,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_phase_distributions.csv,maximum,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_phase_metrics.csv,phase,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_phase_metrics.csv,endpoint,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_phase_metrics.csv,scale,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_phase_metrics.csv,n_sites,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_phase_metrics.csv,n_site_years,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_phase_metrics.csv,r,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_phase_metrics.csv,r_low,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_phase_metrics.csv,r_high,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_phase_metrics.csv,rmse,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_phase_metrics.csv,rmse_low,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_phase_metrics.csv,rmse_high,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_phase_metrics.csv,bias,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_phase_metrics.csv,bias_low,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_phase_metrics.csv,bias_high,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_phase_metrics.csv,bootstrap_replicates,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_phase_metrics.csv,seed,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_phase_metrics.csv,support,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_phase_metrics.csv,product_temporal_support,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_site_metrics.csv,site,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_site_metrics.csv,n,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_site_metrics.csv,r,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_site_metrics.csv,rmse,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_site_metrics.csv,bias,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_site_metrics.csv,mae,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_site_metrics.csv,analysis,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_site_metrics.csv,scale,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_temporal_scale_metrics.csv,analysis,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_temporal_scale_metrics.csv,scale,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_temporal_scale_metrics.csv,pairs,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_temporal_scale_metrics.csv,blocks,int64,Number of occupied spatial clusters
+data/exploratory_tower/tower_temporal_scale_metrics.csv,r,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_temporal_scale_metrics.csv,r_lo,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_temporal_scale_metrics.csv,r_hi,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_temporal_scale_metrics.csv,rmse,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_temporal_scale_metrics.csv,rmse_lo,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_temporal_scale_metrics.csv,rmse_hi,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_temporal_scale_metrics.csv,bias,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_temporal_scale_metrics.csv,bias_lo,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_temporal_scale_metrics.csv,bias_hi,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_temporal_scale_metrics.csv,mae,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_temporal_scale_metrics.csv,mae_lo,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_temporal_scale_metrics.csv,mae_hi,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_temporal_scale_metrics.csv,sites,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_temporal_scale_metrics.csv,year_min,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_temporal_scale_metrics.csv,year_max,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/exploratory_tower/tower_temporal_scale_metrics.csv,site_years,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/reference/allocation_results.csv,model_id,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/reference/allocation_results.csv,contrast,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/reference/allocation_results.csv,endpoint,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/reference/allocation_results.csv,beta,float64,Log-response coefficient or contrast
+data/reference/allocation_results.csv,se,float64,Spatial-cluster standard error
+data/reference/allocation_results.csv,ci_low,float64,Lower ordinary 95% interval endpoint
+data/reference/allocation_results.csv,ci_high,float64,Upper ordinary 95% interval endpoint
+data/reference/allocation_results.csv,p,float64,Two-sided unadjusted P value
+data/reference/allocation_results.csv,df,int64,Degrees of freedom
+data/reference/allocation_results.csv,n_clusters,int64,Number of occupied spatial clusters
+data/reference/allocation_results.csv,n_cells,int64,Number of distinct retained cells
+data/reference/allocation_results.csv,n_cell_years,int64,Number of retained cell-years
+data/reference/allocation_results.csv,family_id,str,Multiplicity correction family
+data/reference/allocation_results.csv,q,float64,Benjamini-Hochberg adjusted P value
+data/reference/primary_family.csv,setting,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/reference/primary_family.csv,phase,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/reference/primary_family.csv,topic,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/reference/primary_family.csv,endpoint,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/reference/primary_family.csv,contrast,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/reference/primary_family.csv,beta,float64,Log-response coefficient or contrast
+data/reference/primary_family.csv,se,float64,Spatial-cluster standard error
+data/reference/primary_family.csv,ci_low,float64,Lower ordinary 95% interval endpoint
+data/reference/primary_family.csv,ci_high,float64,Upper ordinary 95% interval endpoint
+data/reference/primary_family.csv,p,float64,Two-sided unadjusted P value
+data/reference/primary_family.csv,blocks,int64,Number of occupied spatial clusters
+data/reference/primary_family.csv,cells,int64,Number of distinct retained cells
+data/reference/primary_family.csv,cell_years,int64,Number of retained cell-years
+data/reference/primary_family.csv,family_id,str,Multiplicity correction family
+data/reference/primary_family.csv,q,float64,Benjamini-Hochberg adjusted P value
+data/source_tables/allocation_change_decomposition.csv,contrast,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/allocation_change_decomposition.csv,endpoint,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/allocation_change_decomposition.csv,full_difference,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/allocation_change_decomposition.csv,midpoint_support_component,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/allocation_change_decomposition.csv,common_allocation_component,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/allocation_change_decomposition.csv,overlap_support_component,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/allocation_support_by_block.csv,block,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/allocation_support_by_block.csv,overlap_cells,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/allocation_support_by_block.csv,overlap_cell_years,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/allocation_support_by_block.csv,midpoint_cells,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/allocation_support_by_block.csv,midpoint_cell_years,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/allocation_support_by_block.csv,common_cells,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/allocation_support_by_block.csv,common_cell_years,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/allocation_support_by_year.csv,Overlap_full,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/allocation_support_by_year.csv,Midpoint_full,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/allocation_support_by_year.csv,Common,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/allocation_support_by_year.csv,year,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/background_latitude_profile.csv,phase,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/background_latitude_profile.csv,latitude,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/background_latitude_profile.csv,mean,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/candidate_effects.csv,setting,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/candidate_effects.csv,phase,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/candidate_effects.csv,topic,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/candidate_effects.csv,outcome,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/candidate_effects.csv,contrast,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/candidate_effects.csv,beta,float64,Log-response coefficient or contrast
+data/source_tables/candidate_effects.csv,se,float64,Spatial-cluster standard error
+data/source_tables/candidate_effects.csv,lo,float64,Lower ordinary 95% interval endpoint
+data/source_tables/candidate_effects.csv,hi,float64,Upper ordinary 95% interval endpoint
+data/source_tables/candidate_effects.csv,p,float64,Two-sided unadjusted P value
+data/source_tables/candidate_effects.csv,blocks,int64,Number of occupied spatial clusters
+data/source_tables/candidate_effects.csv,cells,int64,Number of distinct retained cells
+data/source_tables/candidate_effects.csv,cell_years,int64,Number of retained cell-years
+data/source_tables/candidate_effects.csv,family,str,Multiplicity correction family
+data/source_tables/candidate_effects.csv,q_BH,float64,Benjamini-Hochberg adjusted P value
+data/source_tables/configuration_sensitivity.csv,setting,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/configuration_sensitivity.csv,topic,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/configuration_sensitivity.csv,phase,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/configuration_sensitivity.csv,scenario,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/configuration_sensitivity.csv,outcome,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/configuration_sensitivity.csv,beta,float64,Log-response coefficient or contrast
+data/source_tables/configuration_sensitivity.csv,se,float64,Spatial-cluster standard error
+data/source_tables/configuration_sensitivity.csv,lo,float64,Lower ordinary 95% interval endpoint
+data/source_tables/configuration_sensitivity.csv,hi,float64,Upper ordinary 95% interval endpoint
+data/source_tables/configuration_sensitivity.csv,p,float64,Two-sided unadjusted P value
+data/source_tables/configuration_sensitivity.csv,family,str,Multiplicity correction family
+data/source_tables/configuration_sensitivity.csv,q_BH,float64,Benjamini-Hochberg adjusted P value
+data/source_tables/control_ablations.csv,analysis,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/control_ablations.csv,phase,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/control_ablations.csv,family,str,Multiplicity correction family
+data/source_tables/control_ablations.csv,term,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/control_ablations.csv,outcome,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/control_ablations.csv,beta,float64,Log-response coefficient or contrast
+data/source_tables/control_ablations.csv,se,float64,Spatial-cluster standard error
+data/source_tables/control_ablations.csv,lo,float64,Lower ordinary 95% interval endpoint
+data/source_tables/control_ablations.csv,hi,float64,Upper ordinary 95% interval endpoint
+data/source_tables/control_ablations.csv,p,float64,Two-sided unadjusted P value
+data/source_tables/control_ablations.csv,blocks,int64,Number of occupied spatial clusters
+data/source_tables/control_ablations.csv,cells,int64,Number of distinct retained cells
+data/source_tables/control_ablations.csv,cell_years,int64,Number of retained cell-years
+data/source_tables/control_ablations.csv,q_BH,float64,Benjamini-Hochberg adjusted P value
+data/source_tables/direct_contrasts.csv,analysis,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/direct_contrasts.csv,phase,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/direct_contrasts.csv,outcome,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/direct_contrasts.csv,beta,float64,Log-response coefficient or contrast
+data/source_tables/direct_contrasts.csv,se,float64,Spatial-cluster standard error
+data/source_tables/direct_contrasts.csv,lo,float64,Lower ordinary 95% interval endpoint
+data/source_tables/direct_contrasts.csv,hi,float64,Upper ordinary 95% interval endpoint
+data/source_tables/direct_contrasts.csv,p,float64,Two-sided unadjusted P value
+data/source_tables/direct_contrasts.csv,family,str,Multiplicity correction family
+data/source_tables/direct_contrasts.csv,blocks,int64,Number of occupied spatial clusters
+data/source_tables/direct_contrasts.csv,df,int64,Degrees of freedom
+data/source_tables/direct_contrasts.csv,cells,int64,Number of distinct retained cells
+data/source_tables/direct_contrasts.csv,cell_years,int64,Number of retained cell-years
+data/source_tables/direct_contrasts.csv,interpretation,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/direct_contrasts.csv,q_BH,float64,Benjamini-Hochberg adjusted P value
+data/source_tables/GIS_stratification_support.csv,igbp,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/GIS_stratification_support.csv,aridity_group,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/GIS_stratification_support.csv,phase,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/GIS_stratification_support.csv,cells,int64,Number of distinct retained cells
+data/source_tables/GIS_stratification_support.csv,cell_years,int64,Number of retained cell-years
+data/source_tables/GIS_stratification_support.csv,n_clusters,int64,Number of occupied spatial clusters
+data/source_tables/GIS_stratification_support.csv,estimable,bool,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/GIS_stratification_support.csv,reason,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/GIS_unclassified_support.csv,reason,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/GIS_unclassified_support.csv,cells,int64,Number of distinct retained cells
+data/source_tables/GIS_unclassified_support.csv,cell_years,int64,Number of retained cell-years
+data/source_tables/heatmap_support.csv,analysis,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/heatmap_support.csv,phase,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/heatmap_support.csv,blocks,int64,Number of occupied spatial clusters
+data/source_tables/heatmap_support.csv,cells,int64,Number of distinct retained cells
+data/source_tables/heatmap_support.csv,cell_years,int64,Number of retained cell-years
+data/source_tables/heatmap_support.csv,reason,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/heatmap_support.csv,beta,float64,Log-response coefficient or contrast
+data/source_tables/interaction_phase_contrasts.csv,model_id,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/interaction_phase_contrasts.csv,term,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/interaction_phase_contrasts.csv,endpoint,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/interaction_phase_contrasts.csv,contrast,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/interaction_phase_contrasts.csv,beta,float64,Log-response coefficient or contrast
+data/source_tables/interaction_phase_contrasts.csv,se,float64,Spatial-cluster standard error
+data/source_tables/interaction_phase_contrasts.csv,ci_low,float64,Lower ordinary 95% interval endpoint
+data/source_tables/interaction_phase_contrasts.csv,ci_high,float64,Upper ordinary 95% interval endpoint
+data/source_tables/interaction_phase_contrasts.csv,p,float64,Two-sided unadjusted P value
+data/source_tables/interaction_phase_contrasts.csv,df,int64,Degrees of freedom
+data/source_tables/interaction_phase_contrasts.csv,n_clusters,int64,Number of occupied spatial clusters
+data/source_tables/interaction_phase_contrasts.csv,n_cells,int64,Number of distinct retained cells
+data/source_tables/interaction_phase_contrasts.csv,n_cell_years,int64,Number of retained cell-years
+data/source_tables/interaction_phase_contrasts.csv,family_id,str,Multiplicity correction family
+data/source_tables/interaction_phase_contrasts.csv,units,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/interaction_phase_contrasts.csv,support_definition,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/interaction_phase_contrasts.csv,q,float64,Benjamini-Hochberg adjusted P value
+data/source_tables/leave_block_out.csv,analysis,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/leave_block_out.csv,phase,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/leave_block_out.csv,family,str,Multiplicity correction family
+data/source_tables/leave_block_out.csv,term,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/leave_block_out.csv,outcome,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/leave_block_out.csv,beta,float64,Log-response coefficient or contrast
+data/source_tables/leave_block_out.csv,se,float64,Spatial-cluster standard error
+data/source_tables/leave_block_out.csv,lo,float64,Lower ordinary 95% interval endpoint
+data/source_tables/leave_block_out.csv,hi,float64,Upper ordinary 95% interval endpoint
+data/source_tables/leave_block_out.csv,p,float64,Two-sided unadjusted P value
+data/source_tables/leave_block_out.csv,blocks,int64,Number of occupied spatial clusters
+data/source_tables/leave_block_out.csv,cells,int64,Number of distinct retained cells
+data/source_tables/leave_block_out.csv,cell_years,int64,Number of retained cell-years
+data/source_tables/local_thermal_associations.csv,analysis,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/local_thermal_associations.csv,phase,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/local_thermal_associations.csv,family,str,Multiplicity correction family
+data/source_tables/local_thermal_associations.csv,term,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/local_thermal_associations.csv,outcome,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/local_thermal_associations.csv,beta,float64,Log-response coefficient or contrast
+data/source_tables/local_thermal_associations.csv,se,float64,Spatial-cluster standard error
+data/source_tables/local_thermal_associations.csv,lo,float64,Lower ordinary 95% interval endpoint
+data/source_tables/local_thermal_associations.csv,hi,float64,Upper ordinary 95% interval endpoint
+data/source_tables/local_thermal_associations.csv,p,float64,Two-sided unadjusted P value
+data/source_tables/local_thermal_associations.csv,blocks,int64,Number of occupied spatial clusters
+data/source_tables/local_thermal_associations.csv,cells,int64,Number of distinct retained cells
+data/source_tables/local_thermal_associations.csv,cell_years,int64,Number of retained cell-years
+data/source_tables/local_thermal_associations.csv,q_BH,float64,Benjamini-Hochberg adjusted P value
+data/source_tables/model_support.csv,analysis,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/model_support.csv,phase,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/model_support.csv,blocks,int64,Number of occupied spatial clusters
+data/source_tables/model_support.csv,cells,int64,Number of distinct retained cells
+data/source_tables/model_support.csv,cell_years,int64,Number of retained cell-years
+data/source_tables/model_support.csv,eligible,bool,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/model_support.csv,reason,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/month_support_distribution.csv,year,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/month_support_distribution.csv,phase,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/month_support_distribution.csv,measure,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/month_support_distribution.csv,value,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/month_support_distribution.csv,count,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/new_thermal_analyses.csv,analysis,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/new_thermal_analyses.csv,phase,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/new_thermal_analyses.csv,family,str,Multiplicity correction family
+data/source_tables/new_thermal_analyses.csv,term,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/new_thermal_analyses.csv,outcome,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/new_thermal_analyses.csv,beta,float64,Log-response coefficient or contrast
+data/source_tables/new_thermal_analyses.csv,se,float64,Spatial-cluster standard error
+data/source_tables/new_thermal_analyses.csv,lo,float64,Lower ordinary 95% interval endpoint
+data/source_tables/new_thermal_analyses.csv,hi,float64,Upper ordinary 95% interval endpoint
+data/source_tables/new_thermal_analyses.csv,p,float64,Two-sided unadjusted P value
+data/source_tables/new_thermal_analyses.csv,blocks,int64,Number of occupied spatial clusters
+data/source_tables/new_thermal_analyses.csv,cells,int64,Number of distinct retained cells
+data/source_tables/new_thermal_analyses.csv,cell_years,int64,Number of retained cell-years
+data/source_tables/new_thermal_analyses.csv,q_BH,float64,Benjamini-Hochberg adjusted P value
+data/source_tables/nonlinear_thermal_curves.csv,analysis,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/nonlinear_thermal_curves.csv,phase,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/nonlinear_thermal_curves.csv,family,str,Multiplicity correction family
+data/source_tables/nonlinear_thermal_curves.csv,term,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/nonlinear_thermal_curves.csv,outcome,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/nonlinear_thermal_curves.csv,beta,float64,Log-response coefficient or contrast
+data/source_tables/nonlinear_thermal_curves.csv,se,float64,Spatial-cluster standard error
+data/source_tables/nonlinear_thermal_curves.csv,lo,float64,Lower ordinary 95% interval endpoint
+data/source_tables/nonlinear_thermal_curves.csv,hi,float64,Upper ordinary 95% interval endpoint
+data/source_tables/nonlinear_thermal_curves.csv,p,float64,Two-sided unadjusted P value
+data/source_tables/nonlinear_thermal_curves.csv,blocks,int64,Number of occupied spatial clusters
+data/source_tables/nonlinear_thermal_curves.csv,cells,int64,Number of distinct retained cells
+data/source_tables/nonlinear_thermal_curves.csv,cell_years,int64,Number of retained cell-years
+data/source_tables/nonlinear_thermal_curves.csv,q_BH,float64,Benjamini-Hochberg adjusted P value
+data/source_tables/phase_support.csv,year,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/phase_support.csv,phase,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/phase_support.csv,n_cell_years,int64,Number of retained cell-years
+data/source_tables/phase_support.csv,length_mean_days,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/phase_support.csv,length_p05,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/phase_support.csv,length_median,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/phase_support.csv,length_p95,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/phase_support.csv,months_mean,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/phase_support.csv,months_min,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/phase_support.csv,months_max,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/phase_support.csv,shared_month_fraction_mean,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/phase_support.csv,fraction_with_any_shared_month,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/phase_support.csv,support_definition,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/phase_support.csv,sharing_definition,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/phenology_full_domain_metrics.csv,event,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/phenology_full_domain_metrics.csv,comparison,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/phenology_full_domain_metrics.csv,pairs,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/phenology_full_domain_metrics.csv,blocks,int64,Number of occupied spatial clusters
+data/source_tables/phenology_full_domain_metrics.csv,r,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/phenology_full_domain_metrics.csv,r_lo,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/phenology_full_domain_metrics.csv,r_hi,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/phenology_full_domain_metrics.csv,rmse,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/phenology_full_domain_metrics.csv,rmse_lo,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/phenology_full_domain_metrics.csv,rmse_hi,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/phenology_full_domain_metrics.csv,bias,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/phenology_full_domain_metrics.csv,bias_lo,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/phenology_full_domain_metrics.csv,bias_hi,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/phenology_full_domain_metrics.csv,mae,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/phenology_full_domain_metrics.csv,mae_lo,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/phenology_full_domain_metrics.csv,mae_hi,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/phenology_sample_metrics.csv,event,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/phenology_sample_metrics.csv,scale,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/phenology_sample_metrics.csv,n,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/phenology_sample_metrics.csv,r,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/phenology_sample_metrics.csv,rmse,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/phenology_sample_metrics.csv,bias,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/phenology_sample_metrics.csv,method_a,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/phenology_sample_metrics.csv,method_b,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/sample_flow_exact_counts.csv,step,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/sample_flow_exact_counts.csv,cell_years,int64,Number of retained cell-years
+data/source_tables/sample_flow_exact_counts.csv,excluded_from_previous,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/sample_flow_exact_counts.csv,relative_to_previous,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/sample_flow_exact_counts.csv,relative_to_start,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/screening_counts.csv,year,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/screening_counts.csv,union_cells,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/screening_counts.csv,finite_five_mean,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/screening_counts.csv,single_season,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/screening_counts.csv,igbp_eligible,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/screening_counts.csv,complete_joint_flux_climate,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/screening_counts.csv,primary_after_6year_rule,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/stratified_effects.csv,field,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/stratified_effects.csv,value,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/stratified_effects.csv,phase,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/stratified_effects.csv,topic,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/stratified_effects.csv,outcome,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/stratified_effects.csv,contrast,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/stratified_effects.csv,beta,float64,Log-response coefficient or contrast
+data/source_tables/stratified_effects.csv,se,float64,Spatial-cluster standard error
+data/source_tables/stratified_effects.csv,lo,float64,Lower ordinary 95% interval endpoint
+data/source_tables/stratified_effects.csv,hi,float64,Upper ordinary 95% interval endpoint
+data/source_tables/stratified_effects.csv,p,float64,Two-sided unadjusted P value
+data/source_tables/stratified_effects.csv,blocks,int64,Number of occupied spatial clusters
+data/source_tables/stratified_effects.csv,cells,int64,Number of distinct retained cells
+data/source_tables/stratified_effects.csv,cell_years,int64,Number of retained cell-years
+data/source_tables/stratified_effects.csv,q_BH,float64,Benjamini-Hochberg adjusted P value
+data/source_tables/support_by_group.csv,year,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/support_by_group.csv,phase,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/support_by_group.csv,group_type,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/support_by_group.csv,group,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/support_by_group.csv,n,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/support_by_group.csv,length_mean,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/support_by_group.csv,months_mean,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/support_by_group.csv,months_p05,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/support_by_group.csv,months_p95,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/support_by_group.csv,shared_fraction_mean,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/support_by_group.csv,shared_p05,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/support_by_group.csv,shared_p95,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/thermal_exposure_support.csv.gz,block,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/thermal_exposure_support.csv.gz,phase,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/thermal_exposure_support.csv.gz,bin_left,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/thermal_exposure_support.csv.gz,bin_right,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/thermal_exposure_support.csv.gz,count,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/tower_metrics.csv,analysis,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/tower_metrics.csv,scale,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/tower_metrics.csv,pairs,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/tower_metrics.csv,blocks,int64,Number of occupied spatial clusters
+data/source_tables/tower_metrics.csv,r,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/tower_metrics.csv,r_lo,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/tower_metrics.csv,r_hi,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/tower_metrics.csv,rmse,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/tower_metrics.csv,rmse_lo,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/tower_metrics.csv,rmse_hi,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/tower_metrics.csv,bias,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/tower_metrics.csv,bias_lo,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/tower_metrics.csv,bias_hi,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/tower_metrics.csv,mae,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/tower_metrics.csv,mae_lo,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/tower_metrics.csv,mae_hi,float64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/tower_metrics.csv,sites,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/tower_metrics.csv,site_months,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/tower_metrics.csv,year_min,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/tower_metrics.csv,year_max,int64,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/warming_contrasts.csv,topic,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/warming_contrasts.csv,phase,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/warming_contrasts.csv,scenario,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/warming_contrasts.csv,outcome,str,Table-specific identifier or quantity; definitions in the Supporting Information and table scope
+data/source_tables/warming_contrasts.csv,beta,float64,Log-response coefficient or contrast
+data/source_tables/warming_contrasts.csv,se,float64,Spatial-cluster standard error
+data/source_tables/warming_contrasts.csv,lo,float64,Lower ordinary 95% interval endpoint
+data/source_tables/warming_contrasts.csv,hi,float64,Upper ordinary 95% interval endpoint
+data/source_tables/warming_contrasts.csv,p,float64,Two-sided unadjusted P value
+data/source_tables/warming_contrasts.csv,q_BH,float64,Benjamini-Hochberg adjusted P value
+data/source_tables/Figure_1_thermal_summary.csv,phase,str,"Equal-duration early, middle or late third of the GOSIF-defined growing season"
+data/source_tables/Figure_1_thermal_summary.csv,area_weighted_mean_degC,float64,"Mean of eligible-year cell means, weighted by cosine of latitude; degrees Celsius"
+data/source_tables/Figure_1_thermal_summary.csv,area_fraction_soil_warmer_pct,float64,Area-weighted percentage of retained cells with positive phase mean soil-minus-air temperature
+data/source_tables/Figure_1_thermal_summary.csv,n_cells,int64,Number of retained cells in the descriptive spatial summary
+data/source_tables/Figure_1_latitude_profile.csv,phase,str,"Equal-duration early, middle or late third of the GOSIF-defined growing season"
+data/source_tables/Figure_1_latitude_profile.csv,latitude,float64,Centre latitude of a five-degree band; degrees north
+data/source_tables/Figure_1_latitude_profile.csv,mean,float64,Cosine-latitude-weighted soil-minus-air temperature within the latitude band; degrees Celsius
