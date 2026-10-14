@@ -1,0 +1,45 @@
+
+{
+  "title": "Soil–Air Thermal Contrasts and Seasonal Water-Use Efficiency in Northern Hemisphere Vegetation",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "creators": [
+    {
+      "name": "Zimini, Yusupukadier",
+      "affiliation": "Shenzhen University"
+    },
+    {
+      "name": "Zhao, Qingjie",
+      "affiliation": "Northwest A&F University"
+    },
+    {
+      "name": "Ni, Xuan",
+      "affiliation": "Shenzhen University"
+    },
+    {
+      "name": "Zhang, Liuyang",
+      "affiliation": "Shenzhen University"
+    },
+    {
+      "name": "Li, Qingquan",
+      "affiliation": "Shenzhen University"
+    },
+    {
+      "name": "Yang, Chao",
+      "affiliation": "Shenzhen University"
+    }
+  ],
+  "description": "Research code and supporting data accompanying the manuscript Soil–Air Thermal Contrasts and Seasonal Water-Use Efficiency in Northern Hemisphere Vegetation, submitted to Journal of Geophysical Research: Atmospheres. This archive includes reproducible analysis code, spatial-block model inputs, statistical results, figure-source tables, and dataset documentation for Northern Hemisphere vegetation during 2001–2024. Original satellite, reanalysis, and flux-tower observations are available from their respective providers.",
+  "keywords": [
+    "Water-use efficiency",
+    "Soil-air temperature contrast",
+    "Vegetation phenology",
+    "Gross primary production",
+    "Transpiration",
+    "Evapotranspiration",
+    "Carbon-water coupling",
+    "Northern Hemisphere"
+  ],
+  "access_right": "open",
+  "language": "eng"
+}
